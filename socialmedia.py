@@ -29,5 +29,5 @@ y_pred2 = classifier.predict(X_train)
 from sklearn.metrics import confusion_matrix, accuracy_score
 ac = accuracy_score(y_test,y_pred)
 cm = confusion_matrix(y_test, y_pred)
-ac2 = accuracy_score(y_train,y_pred2)
-print(cm,ac,ac2)
+ac_train = accuracy_score(y_train,y_pred2)
+print(cm,ac,ac_train)
